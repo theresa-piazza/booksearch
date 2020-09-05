@@ -1,0 +1,27 @@
+header {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+}
+
+form {
+    background-color: grey;
+    color:black;
+    text-align: center;
+    font-size: 20px;
+    padding: 14px;
+    text-decoration: bold;
+}
+
+button {
+    padding: 4px;
+    border: 2px solid paleturquoise;
+    border-radius: 15px;
+}
+
+#searchBarHere {
+    padding: 5px;
+    
+}
