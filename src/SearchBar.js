@@ -1,14 +1,12 @@
 import React from 'react';
 import './App.css'
-
 function SearchBar ( props ) {
     return (
-        <form>
+        <form onSubmit={props.handleFetch}>
             Search:  
             <input type="text" placeholder=" " id="searchBarHere"></input>
-            <button type="button">Search</button>
+            <button type="submit">Search</button>
         </form>
     )
 }
-
 export default SearchBar;
